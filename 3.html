@@ -1,44 +1,82 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>스즈미야 심신미약의 웹개발</title>
-  <meta charset="utf-8">
-  <style>
+  <head>
+    <title>스즈미야 심신미약의 웹개발</title>
+    <meta charset="utf-8">
+    <style>
     a {
-      color:mediumseagreen;
-      text-decoration: none;
-    }
-    li {
-      color: rgb(223, 118, 186);
-      font-size: 20px;
-      font-weight: bold;
-    }
-    li span {
-      font-weight: normal;
-    }
-  </style>
-</head>
-<body>
+        color:mediumseagreen;
+        text-decoration: none;
+      }
+      li {
+        color: rgb(223, 118, 186);
+        font-size: 20px;
+        font-weight: bold;
+      }
+      li span {
+        font-weight: normal;
+      }
+      h1 {
+        font-size: 60px;
+        text-align: center;
+        background: -webkit-linear-gradient(rgb(117, 32, 255), rgb(255, 0, 102));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border-bottom:1px solid gray;
+        margin:0;
+        padding: 20px;
+      }
+      #grid ol{
+        border-right:1px solid gray;
+        width:250px;
+        margin:0;
+        padding:30px
+      }
+      #grid ol{
+        padding-left: 50px;
+      }
+      #grid ol{
+        padding-right: 10px;
+      }
+      #grid{
+        display: grid;
+        grid-template-columns: 335px 1fr;
+      }
+      body{
+        margin:0;
+      }
+      #article{
+        padding-left:10px;
+        padding-top:10px;
+      }
+    </style>
+  </head>
+  <body>
+
   <h1><a href="index.html" style="color:black">심신미약의 홈피</a></h1>
+<div id="grid">
   <ol>
     <li><span><a href="1.html">자기소개</a></span></li>
     <li><span><a href="2.html">등장인물</a></span></li>
-    <li><span><a href="3.html" style="color:rgb(87, 50, 218);text-decoration: underline;">작티로 시작하는 브이로그</a></span></li>
-    <li><span><a href="4.html">방명록</a></span></li>
+    <li><span><a href="3.html">작티로 시작하는 브이로그</a></span></li>
   </ol>
-<h3>작티로 시작하는 브이로그</h3>
-<p style="margin-top:20px;">
+  <div id="article">
+  <h2>작티로 시작하는 브이로그</h2>
+  <p style="margin-top:20px;">
 <iframe width="640" height="480" src="https://www.youtube.com/embed/psopaDWVeqs?si=4ujjouPJGdsA7p5h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</p>
 <br>저의 브이로그입니다.
-<br>작티라는 오래된 캠코더로 촬영했습니다.
+<br>SANYO에서 생산한 작티(Xacti)라는 오래된 캠코더로 촬영했습니다.
 <br>
-<br><img src="231103.mp4_20231117_171152.057.png" width="50%">
-<br><img src="231103.mp4_20231117_171218.669.png" width="50%">
-<br><img src="231103.mp4_20231117_171233.505.png" width="50%">
+<br><img src="231103.mp4_20231117_171152.057.png" width="640px" depth="480px">
+<br><img src="231103.mp4_20231117_171218.669.png" width="640px" depth="480px">
+<br><img src="231103.mp4_20231117_171233.505.png" width="640px" depth="480px">
 <br>위 영상의 스틸컷입니다.
 <br>
 <br>제 브이로그에 관심이 있으시면 <a href="https://www.youtube.com/@simsinmiy4k/" target="_blank" title="심신미약의 유튜브 채널"><strong>여기</strong></a>를 클릭해주세요.
 <br>감사합니다.
+   </p>
+  </div>
+</div>
+
 </body>
 </html>
