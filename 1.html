@@ -26,7 +26,7 @@
       margin:0;
       padding: 20px;
     }
-    #grid ol{
+      ol{
       border-right:1px solid gray;
       width:250px;
       margin:0;
@@ -50,6 +50,23 @@
       padding-top:10px;
       padding-right:30px;
     }
+    @media(max-width:1030px){
+      #grid{
+        display: block;
+      }
+      ol{
+        border-right:none;
+      }
+      h1{
+        border-bottom:none;
+      }
+      h2{
+        text-align: center;
+      }
+      #portrait{
+        text-align: center;
+      }
+    }
   </style>
 </head>
 <body>
@@ -63,8 +80,9 @@
   </ol>
    <div id="article">
   <h2>자기소개</h2>
+  <div id=portrait><img src="portrait.jpg" width="20%">
+  </div>
   <p>
-  <img src="portrait.jpg" width="20%">
   <br><u><strong>안녕하세요?</strong></u>
   <br>저는 심신미약입니다.
   <br>저는 <strong>여자친구</strong>인
